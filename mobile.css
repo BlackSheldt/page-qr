@@ -21,24 +21,24 @@ body{
 }
 
 main{
-    margin: 15% 5%;
+    margin: 15% auto;
     border-radius: 5%;
     background-color: var(--White);
-    height: 80vh;
-    width: 90%;
+    /* height: 38rem; */
+    width: 23rem;
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: center;
-    padding-bottom: 5%;
+    padding: 1.5rem;
+    flex-direction: column;
+    text-align: center;
 }
 
 img{
-    margin:5% 5% 3% 5%;
+    /* margin:5% 5% 3% 5%; */
+/*     instead of providing margin outside to center img provide padding in the main container. So every thing align itself inside.  */
     border-radius: 4%;
-    max-width: 90%;
-    min-width: 90%;
-    max-height: 60%;
-    min-height: 60%;
+    width: 100%;
 }
 
 h2{
@@ -46,17 +46,19 @@ h2{
     font-weight: 700;
     text-align: center;
     display: inline-block;
-    margin-bottom: 5%;
 }
 
 article{
-    display: flex;
-    flex-wrap: wrap;
-    align-content:space-between;
-    margin: 5% 10% auto 10%;
+    padding: 1rem 0.5rem;
+
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* align-content:space-between; */
+    /* margin: 5%; */
 }
 
 p{
+    margin-top: 1rem;
     text-align: center;
     font-weight: 400;
     color:var(--Grayish_blue);
